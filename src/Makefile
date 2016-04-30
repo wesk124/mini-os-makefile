@@ -1,4 +1,4 @@
-XEN_SRC_DIR=/root/src/xen
+XEN_SRC_DIR=/root/xen
 SRC=main.c
 ARCH=x86_64
 XEN_CONFIG=domain_config.xl

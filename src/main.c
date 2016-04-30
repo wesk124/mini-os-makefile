@@ -2,14 +2,10 @@
 #include <unistd.h>
 
 int main(void) {
-	int i;
-	
-	sleep(1);
-	for(i=0; i<5; i++)
+	while(1)
 	{
-		printf("hello world\n");
+		printf("hello world");
 		sleep(1);
 	}
-	
         return 0;
 }
